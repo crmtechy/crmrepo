@@ -1,0 +1,54 @@
+getvalue()-
+
+function getFieldValue();
+var phone= xrm.page.data.entity.attributes.get("mobilenumber").getvalue( );
+{
+
+
+
+var regx=/[0-9]/;
+if ((phone!=null) &&(mobilenumber.length==10) &&(mobilenumber.match(regx)) {
+alert("you have entered correct phone no");
+}else{
+ alert("please enter correct number !!")
+}
+
+
+
+
+
+
+function getFieldValue();
+var phone= xrm.page.data.entity.attributes.get("abcd_mobilnumber").getvalue( );
+{
+var regx=/[0-9]/;
+if ((phone!=null) &&(phone.length==10) &&(phone.match(regx)) {
+alert("you have entered correct phone no");
+}else{
+ alert("please enter correct number !!")
+}
+
+
+
+settings- solution- 
+web resource
+name- contact
+display name- contact 
+description- 
+type - jscript
+
+
+setvalue()-
+
+function setEmail(){
+var email=xrm.page.data.entity.attributes.get("emailaddress").setvalue( );
+if (email==null);
+xrm.page.data.entity.attributes.get("emailaddress2
+
+
+
+").setvalue( );
+
+}
+
+task- create 10 datatypes, get the value and set the value
